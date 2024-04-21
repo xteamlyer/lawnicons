@@ -36,6 +36,9 @@
             <intent-filter>
                 <action android:name="org.adw.launcher.THEMES" />
                 <category android:name="android.intent.category.DEFAULT" />
+                <!-- Support Material3 theming as found in M3 Icon Pack standard-->
+                <category android:name="org.icontheme.CHANGES_WITH_MATERIAL_YOU_COLORS" />
+                <category android:name="org.icontheme.CHANGES_WITH_DARK_MODE" />
             </intent-filter>
             <!-- ADW Launcher Custom Icon Picker -->
             <intent-filter>
@@ -128,6 +131,11 @@
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.APP_BROWSER" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
         </intent>
     </queries>
 </manifest>
