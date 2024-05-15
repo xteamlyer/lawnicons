@@ -135,7 +135,7 @@ dependencies {
     val lifecycleVersion = "2.8.0-rc01"
     val hiltVersion = "2.51.1"
 
-    implementation("androidx.appcompat:appcompat:1.7.0-beta01")
+    implementation("androidx.appcompat:appcompat:1.7.0-rc01")
     implementation("androidx.core:core-ktx:1.14.0-alpha01")
     implementation("androidx.activity:activity-compose:1.9.0")
     implementation(platform("androidx.compose:compose-bom:2024.05.00"))
