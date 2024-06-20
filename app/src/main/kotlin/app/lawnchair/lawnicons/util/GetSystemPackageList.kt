@@ -4,7 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
-import app.lawnchair.lawnicons.model.IconInfoAppfilter
+import app.lawnchair.lawnicons.model.IconInfo
+import app.lawnchair.lawnicons.model.LabelAndComponent
 
 fun Context.getPackagesList(): List<ResolveInfo> {
     return try {
@@ -17,7 +18,7 @@ fun Context.getPackagesList(): List<ResolveInfo> {
     }
 }
 
-fun Context.getSystemIconInfoAppfilter(): List<IconInfoAppfilter> {
+fun Context.getSystemIconInfoAppfilter(): List<IconInfo> {
     return getPackagesList().map { ri ->
         with(ri) {
             val riPkg = activityInfo.packageName
@@ -25,11 +26,12 @@ fun Context.getSystemIconInfoAppfilter(): List<IconInfoAppfilter> {
 
             val name = loadLabel(packageManager) ?: riPkg
 
-            IconInfoAppfilter(
-                name = name.toString(),
-                componentName = component,
-                id = 0,
+            IconInfo(
                 drawableName = "",
+                componentNames = listOf(
+                    LabelAndComponent(name.toString(), component),
+                ),
+                id = 0,
             )
         }
     }
