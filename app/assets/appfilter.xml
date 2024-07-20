@@ -95,6 +95,8 @@
   <item component="ComponentInfo{org.softeg.slartus.forpdaplus/org.softeg.slartus.forpdaplus.MainActivity}" drawable="_4pda" name="4PDA" />
   <item component="ComponentInfo{ru.fourpda.client/ru.fourpda.client.MainActivity}" drawable="_4pda" name="4PDA" />
   <item component="ComponentInfo{ru.fourpda.client/ru.fourpda.MainActivity}" drawable="_4pda" name="4PDA" />
+  <item component="ComponentInfo{ru.fourpda.client.monet/ru.fourpda.client.monet.MainActivity}" drawable="_4pda" name="4PDA" />
+  <item component="ComponentInfo{ru.fourpda.client.monet/ru.fourpda.monet.MainActivity}" drawable="_4pda" name="4PDA" />
   <item component="ComponentInfo{com.intelligentchange.fiveminutejournal/com.intelligentchange.fiveminutejournal3.ui.main.MainActivity}" drawable="_5_minute_journal" name="5 Minute Journal" />
   <item component="ComponentInfo{com.secure56.app/com.android56.app.splash.SplashActivity}" drawable="_56_secure" name="56 Secure" />
   <item component="ComponentInfo{moe.xzr.fivegtile/moe.xzr.fivegtile.MainActivity}" drawable="_5g_tile" name="5G Tile" />
@@ -5265,12 +5267,14 @@
   <item component="ComponentInfo{org.lsposed.lspatch/org.lsposed.lspatch.ui.activity.MainActivity}" drawable="lspatch_lsposed" name="LSPatch" />
   <item component="ComponentInfo{org.lsposed.manager/org.lsposed.manager.ui.activity.MainActivity}" drawable="lspatch_lsposed" name="LSPosed" />
   <item component="ComponentInfo{com.android.shell/org.lsposed.manager.ui.activity.MainActivity}" drawable="lspatch_lsposed" name="LSPosed" />
+  <item component="ComponentInfo{com.luckyzyx.luckytool/com.luckyzyx.luckytool.ui.activity.MainActivity}" drawable="lspatch_lsposed" name="LuckyTool" />
   <item component="ComponentInfo{theredspy15.ltecleanerfoss/theredspy15.ltecleanerfoss.MainActivity}" drawable="lte_cleaner" name="LTE Cleaner" />
   <item component="ComponentInfo{theredspy15.ltecleanerfoss/theredspy15.ltecleanerfoss.controllers.MainActivity}" drawable="lte_cleaner" name="LTE Cleaner" />
   <item component="ComponentInfo{com.lucidchart.android.chart/com.lucidchart.android.chart.MainActivity}" drawable="lucidchart" name="Lucidchart" />
   <item component="ComponentInfo{com.duk.kerala.gst.luckybill/com.duk.kerala.gst.luckybill.ui.components.activities.StarterActivity}" drawable="lucky_bill" name="Lucky Bill" />
   <item component="ComponentInfo{com.dsquares.lucky/com.dsquares.lucky.screens.mainscreens.single.SingleLuckyActivity}" drawable="lucky_financial" name="Lucky Financial" />
   <item component="ComponentInfo{ru.utybnmuy.opzuxkors/ru.utybnmuy.opzuxkors.MainActivity1}" drawable="lucky_patcher" name="Lucky Patcher" />
+  <item component="ComponentInfo{ru.witxvneu.fssszahuj/ru.witxvneu.fssszahuj.MainActivity1}" drawable="lucky_patcher" name="Lucky Patcher" />
   <item component="ComponentInfo{com.ludo.king/com.unity3d.player.UnityPlayerActivity}" drawable="ludo_king" name="Ludo King" />
   <item component="ComponentInfo{com.ludo.king/com.google.firebase.MessagingUnityPlayerActivity}" drawable="ludo_king" name="Ludo King" />
   <item component="ComponentInfo{com.looper.vic/com.looper.vic.activity.MainActivity}" drawable="lumi_ai" name="Lumi AI" />
@@ -7916,6 +7920,7 @@
   <item component="ComponentInfo{com.secuso.privacyFriendlyCodeScanner/com.secuso.privacyfriendlycodescanner.qrscanner.SplashActivity}" drawable="qr_reader" name="QR Scanner" />
   <item component="ComponentInfo{com.secuso.privacyFriendlyCodeScanner/com.secuso.privacyfriendlycodescanner.qrscanner.ui.activities.SplashActivity}" drawable="qr_reader" name="QR Scanner" />
   <item component="ComponentInfo{com.secuso.privacyFriendlyCodeScanner/com.secuso.privacyFriendlyCodeScanner.SplashActivity}" drawable="qr_reader" name="QR Scanner" />
+  <item component="ComponentInfo{com.teacapps.barcodescanner.pro/net.qrbot.ui.main.MainActivity}" drawable="qr_reader" name="QR Scanner" />
   <item component="ComponentInfo{com.trifellas.qrgenerator/com.trifellas.qrgenerator.app.presentation.screens.splash.SplashActivity}" drawable="qrky" name="QRky" />
   <item component="ComponentInfo{dev.uint.qrserv/dev.uint.qrserv.MainActivity}" drawable="qrserv" name="QRServ" />
   <item component="ComponentInfo{com.thehcj.quacker/com.thehcj.quacker.MainActivity}" drawable="quacker" name="Quacker" />
@@ -11091,6 +11096,7 @@
   <item component="ComponentInfo{com.appntox.vpnpro/app.appntox.vpn.presentation.splash.SplashActivity}" drawable="vpn_pro" name="VPN Pro" />
   <item component="ComponentInfo{com.vpnhood.client.android/crc647486a17e72a62434.MainActivity}" drawable="vpnhood" name="VpnHood!" />
   <item component="ComponentInfo{com.vpnhood.client.android/crc64878500d16bb23c1a.MainActivity}" drawable="vpnhood" name="VpnHood!" />
+  <item component="ComponentInfo{fr.husi/io.nekohasekai.sagernet.ui.MainActivity}" drawable="vpnhood" name="husi" />
   <item component="ComponentInfo{com.vpn.free.hotspot.secure.vpnify/com.vpn.free.hotspot.secure.vpnify.MainActivity}" drawable="vpnify" name="vpnify" />
   <item component="ComponentInfo{fi.vr.mobile.app/fi.vr.app.MainActivity}" drawable="vr_matkalla" name="VR Matkalla" />
   <item component="ComponentInfo{de.fiducia.smartphone.android.securego.vr/de.fiducia.smartphone.android.securego.SecureGoSplashScreenActivity}" drawable="vr_securego" name="VR SecureGo" />
@@ -12238,6 +12244,10 @@
   <item component="ComponentInfo{com.lifeplatform.better/com.lifeplatform.better.MainActivity}" drawable="better" name="베터 ~~ Better" />
   <item component="ComponentInfo{zettamedia.bflix/zettamedia.bflix.activity.IntroActivity}" drawable="bflix" name="비플릭스 ~~ BFLIX" />
   <item component="ComponentInfo{com.starbucks.co/com.starbucks.co2.ui.intro.IntroActivity}" drawable="starbucks" name="스타벅스 ~~ Starbucks" />
+  <item component="ComponentInfo{ru.filit.mvideo.b2c/ru.filit.mvideo.b2c.app.view.AppActivity}" drawable="muzei" name="М.Видео" />
+  <item component="ComponentInfo{com.huawei.iretail.salesassistant/com.huawei.iretail.salesassistant.main.MainActivity}" drawable="smarty" name="Smart Sales" />
+  <item component="ComponentInfo{com.huawei.iretail.ma/com.huawei.android.klt.MainActivity}" drawable="mandao" name="MSS Academy" />
+  <item component="ComponentInfo{com.huawei.works.wemeeting/com.huawei.works.wemeeting.ui.MainActivity}" drawable="google_meet" name="WeMeeting" />
   <item component="ComponentInfo{viva.republica.toss/viva.republica.toss.splash.SplashActivity}" drawable="toss" name="토스 ~~ Toss" />
   <item component="ComponentInfo{space.takashima.keypo/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="keyboard" name="ﾀｸﾄ ｷｰﾎﾞｰﾄﾞ ~~ Takt keyboard" />
 </resources>
