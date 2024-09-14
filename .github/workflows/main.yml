@@ -13,9 +13,6 @@ jobs:
         uses: actions/checkout@main
         with:
           submodules: true
-      - name: Fetch all needed branches
-        run: git fetch origin main:main && git fetch origin dev:dev
-        continue-on-error: true
       - uses: actions/setup-java@main
         with:
           distribution: "zulu"
